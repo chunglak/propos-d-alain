@@ -3,7 +3,10 @@ body {
     display: flex;
     flex-direction: column;
 
-    max-width: 800px;
+    max-width: 75ch;
+    text-align: justify;
+    text-justify: inter-word;
+    hyphens: auto;
     margin: auto;
     padding: 1em;
     line-height: 1.5;
